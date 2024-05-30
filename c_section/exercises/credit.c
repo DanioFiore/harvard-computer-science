@@ -1,4 +1,7 @@
-// Check if a number entered is a valid AMEX, VISA or MASTERCARD number
+/**
+ * Launch in the terminal "make credit" to create the binary code and next launch "./credit" to execute the program.
+ * You have to enter a credit card number and the program will say if is a VISA, AMEX, MASTERCARD or INVALID
+*/
 #include <cs50.h>
 #include <stdio.h>
 
