@@ -1,0 +1,14 @@
+In this exercise we have 3 files (sort1-2-3) that contains 3 different types of sorting: Selection, bubble and merge sort.
+The goal is to identify the type of sort of each file by launch in the terminal: time ./[sortfile] [txt_number_file]
+
+sort1 uses: Bubble sort
+
+How do you know?: Is the faster on a sorted list
+
+sort2 uses: Merge sort
+
+How do you know?: Is the faster on random or unsorted list
+
+sort3 uses: Selection sort
+
+How do you know?: It was the only option left!
