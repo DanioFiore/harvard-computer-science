@@ -1,5 +1,5 @@
 /**
- * Launch in the terminal "make scrabble" to create the binary code and next launch "./scrabble [key]" to execute the program.
+ * Run in the terminal "make scrabble" to create the binary code and next Run "./scrabble [key]" to execute the program.
  * You have to enter the key that the program will use to encrypt your next plaintext!
 */
 #include <ctype.h>

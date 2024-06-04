@@ -1,5 +1,5 @@
 /**
- * Launch in the terminal "make scrabble" to create the binary code and next launch "./scrabble" to execute the program.
+ * Run in the terminal "make scrabble" to create the binary code and next Run "./scrabble" to execute the program.
  * You have to enter two word, every character has a value number, the word with the higher value wins!
 */
 #include <ctype.h>

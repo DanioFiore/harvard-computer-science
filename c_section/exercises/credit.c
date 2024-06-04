@@ -1,5 +1,5 @@
 /**
- * Launch in the terminal "make credit" to create the binary code and next launch "./credit" to execute the program.
+ * Run in the terminal "make credit" to create the binary code and next Run "./credit" to execute the program.
  * You have to enter a credit card number and the program will say if is a VISA, AMEX, MASTERCARD or INVALID
 */
 #include <cs50.h>

@@ -1,5 +1,5 @@
 /**
- * Launch in the terminal "make credit" to create the binary code and next launch "./credit" to execute the program.
+ * Run in the terminal "make credit" to create the binary code and next Run "./credit" to execute the program.
  * You have to enter a number and a pyramid inspired by super mario block will appear in base of the number you entered
  */
 #include <cs50.h>
