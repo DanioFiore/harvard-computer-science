@@ -1,0 +1,1 @@
+SELECT final_tab.name FROM (SELECT * FROM (SELECT * FROM people JOIN stars ON people.id = stars.person_id) AS tab1 JOIN movies ON tab1.movie_id = movies.id) AS final_tab WHERE final_tab.year = 2004 ORDER BY final_tab.birth ASC;
