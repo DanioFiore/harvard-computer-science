@@ -1,0 +1,25 @@
+HTML tags:
+h1
+h3
+div
+section
+p
+nav
+ul
+li
+a
+button
+span
+
+Bootstrap:
+Used the Navbar
+
+CSS selectors:
+body
+#home-description-container
+.arrow-container
+.arrow
+h3
+
+JS:
+Used JS to add an easter egg. When click on my name on the homepage, a surprise will appear!
