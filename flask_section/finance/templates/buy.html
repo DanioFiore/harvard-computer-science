@@ -1,0 +1,31 @@
+<!-- The 'Buy' Page -->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy Shares
+{% endblock %}
+
+{% block main %}
+    <div class="container mt-5">
+        <div class="card shadow-sm">
+            <div class="card-header text-center bg-primary text-white">
+                <h3>Buy Shares</h3>
+            </div>
+            <div class="card-body p-4">
+                <form action="/buy" method="post">
+                    <div class="mb-3 text-center">
+                        <label class="form-label fw-bold" for="symbol">Stock Symbol</label>
+                        <input class="form-control mx-auto w-50 mb-3" type="text" id="symbol" name="symbol" placeholder="Symbol" minlength="1" required>
+
+                        <label class="form-label fw-bold" for="shares">Number of Shares</label>
+                        <input class="form-control mx-auto w-50 mb-3" type="number" id="shares" name="shares" placeholder="Shares" min="1" required>
+
+                        <button class="btn btn-primary btn-sm" type="submit">Buy</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

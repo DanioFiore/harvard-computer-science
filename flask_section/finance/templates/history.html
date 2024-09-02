@@ -1,0 +1,41 @@
+<!-- The 'History' Page -->
+
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div class="container mt-5">
+        <div class="card shadow-sm">
+            <div class="card-header text-center bg-primary text-white">
+                <h3>Transaction History</h3>
+            </div>
+            <div class="card-body p-4">
+                <div class="table-responsive-md">
+                    <table class="table table-hover mx-auto w-75">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Symbol</th>
+                                <th scope="col">Shares</th>
+                                <th scope="col">Action</th>
+                                <th scope="col">Balance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for stock in user_portfolio %}
+                            <tr class="table-light">
+                                <td>{{ stock["symbol"] }}</td>
+                                <td>{{ stock["shares"] }}</td>
+                                <td>{{ stock["action"] }}</td>
+                                <td>{{ stock["balance"] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
