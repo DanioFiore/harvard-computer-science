@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Chrome Extension</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h2>Chat with ChatGPT</h2>
+    
+    <div id="setup">
+        <p>Please enter your OpenAI API Key:</p>
+        <input type="text" id="apiKey" placeholder="Your OpenAI API Key">
+        <button id="saveApiKey">Save API Key</button>
+    </div>
+
+    <div id="chat" style="display:none;">
+        <textarea id="input" placeholder="Type your message..."></textarea>
+        <button id="send">Send</button>
+        <div id="response"></div>
+    </div>
+
+    <!-- put the script in a separate file to avoid Content Security Policy (CSP) of google chrome -->
+    <script src="./popup.js"></script>
+</body>
+</html>
